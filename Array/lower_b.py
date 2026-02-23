@@ -1,5 +1,5 @@
 n=[1,1,1,2,3,3,5,6,6,6,7,9,12,12,13]
-tar=6
+tar=4
 low=0
 lower_bound=len(n)
 high=len(n)-1
