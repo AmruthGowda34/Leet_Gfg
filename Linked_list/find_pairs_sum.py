@@ -36,7 +36,8 @@ class DLL:
         right=head
         while right.next!=None:
             right=right.next
-        while left!=None and right!=None and right.next!=left:
+        # while left!=None and right!=None and right.next!=left:
+        while left != None and right != None and left != right and left.prev != right:
             if left.val+right.val==tar:
                 result.append([left.val,right.val])
                 left=left.next

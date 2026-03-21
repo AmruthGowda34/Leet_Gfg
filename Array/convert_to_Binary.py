@@ -16,9 +16,16 @@ class Solution:
             j+=1
             re+=a
         return re
+    def check_ith_bit(self,num2,i):
+        if num2>>i&1!=0: # 13=1101 when it is peformed to rigth shift by i 0110 & 0001==0 return False
+            return True
+        else:
+            return False        
 
 s1=Solution()
 num=4
 num1="111"
+num2=13
 print(s1.convert_D_B(num))
 print(s1.convert_B_D(num1))
+print(s1.check_ith_bit(num2,1))

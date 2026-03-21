@@ -4,10 +4,10 @@ class Node:
         self.next=next
     
 class SLL:
-    def odd_even(self,head):
-        if head==None or head.next==None:
-            return head
-        odd=head
+    def odd_even(self,head):                    #It rearranges the linked list such that:
+        if head==None or head.next==None:       #All odd-position nodes come first
+            return head                         #Then all even-position nodes
+        odd=head                                #This is based on position, not value.
         even=head.next
         even_head=even
         while even!=None and even.next!=None:
