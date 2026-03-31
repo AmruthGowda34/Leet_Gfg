@@ -13,3 +13,6 @@ class Solution(object):
 n = 3
 s1 = Solution()
 print(s1.fib(n))
+
+# l,j=0,1
+# print(l,j)
