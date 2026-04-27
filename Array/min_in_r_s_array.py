@@ -12,5 +12,5 @@ class Solution(object):
                 low=mid+1
         return min_ele
 s1=Solution()
-nums=[4,5,6,7,10,1,2,3,3]
+nums=[4,5,6,7,10,-1,0,1,2,3,3]
 print(s1.search(nums))
