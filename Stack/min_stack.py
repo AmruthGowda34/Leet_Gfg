@@ -21,6 +21,9 @@ class Solution:
         if len(self.items)==0:
             return "It is empty"
         return self.items[-1][0]
+    
+    def display(self):
+        return self.items
 
 s1=Solution()
 s1.push(3)
@@ -29,3 +32,4 @@ s1.push(5)
 print(s1.get_min())
 print(s1.pop())
 print(s1.get_min())
+print(s1.display())
