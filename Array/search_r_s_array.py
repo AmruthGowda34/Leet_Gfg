@@ -19,4 +19,4 @@ class Solution(object):
         return -1
 s1=Solution()
 nums=[16,18,22,1,3,4,5,7,8,10,11,12,13]
-print(s1.search(nums,18))
+print(s1.search(nums,16))
