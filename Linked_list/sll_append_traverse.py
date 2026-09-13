@@ -46,6 +46,7 @@ class SLL:
                 count+=1
             prev.next=new_node
             new_node.next=current
+            
     def delete(self,val):
         if self.head is None:
             print("Empty SLL!")

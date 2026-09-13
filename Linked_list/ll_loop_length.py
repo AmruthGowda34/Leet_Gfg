@@ -18,7 +18,7 @@ class SLL:
             ind+=1
             slow=slow.next
         return ind
-        
+   
 s1=SLL()
 values=[5,9,1,7,6,1,9,2,8]
 head=Node(values[0])

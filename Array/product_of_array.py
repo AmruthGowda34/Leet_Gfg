@@ -1,7 +1,7 @@
 class Soltuion:
     def product(self,nums):
         ans=[1]*len(nums)
-        prefic=1
+        prefix=1
         for i in range(len(nums)):
             ans[i]=prefic
             prefic*=nums[i]

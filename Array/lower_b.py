@@ -12,5 +12,4 @@ while low<=high:
         low=mid+1
 print(lower_bound)
 
-
 #lower_bound:-Smallest index shuch that n[mid]>=tar value is called lower_bound

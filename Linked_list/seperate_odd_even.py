@@ -17,6 +17,7 @@ class SLL:
             even=even.next
         odd.next=even_head
         return head
+
 s1=SLL()
 values=[2,1,3,5,6,4,7]
 head=Node(values[0])

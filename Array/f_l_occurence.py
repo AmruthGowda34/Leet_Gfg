@@ -25,7 +25,7 @@ class Solution(object):
         return [first, last]
 s1=Solution()
 nums=[5,7,7,8,8,10]
-target=7
+target=10
 print(s1.searchRange(nums,target))
 
 # n=[1,2,3,3,3,3,3,5,6,8,9,9,10]

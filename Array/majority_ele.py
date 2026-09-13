@@ -10,6 +10,7 @@
 #             if v>len(nums)//2:
 #                 return k
 #         return -1
+
 # s1=Solution()
 # nums = [2,2,1,1,1,2,2]
 # print(s1.fun(nums))

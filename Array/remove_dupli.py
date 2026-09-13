@@ -7,6 +7,7 @@ class Solution:
             if nums[j]!=nums[i]:
                 i+=1
                 nums[i],nums[j]=nums[j],nums[i]
+                print(nums)
             j+=1
         return nums[:i+1]
 

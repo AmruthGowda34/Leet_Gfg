@@ -1,7 +1,7 @@
 class Solution:
     def swap_vowels(self,s):
         s=s.lower()
-        vowels=set("aeiou")
+        vowels="aeiou"
         s_set=list(s)
         l,r=0,len(s)-1
         while l<r:

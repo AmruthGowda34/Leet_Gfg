@@ -14,7 +14,6 @@ class Solution:
                 result.append(words[i])
                 i-=1
         return "".join(result)
-
 s1=Solution()
 
 s=" Hello world! "

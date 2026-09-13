@@ -5,7 +5,7 @@ class Solution:
         
         while True:
             slow=nums[slow]
-            fast=nums[nums[fast]]
+            fast=nums[nums[fast]],
             if slow==fast:
                 break
         
@@ -17,5 +17,5 @@ class Solution:
         return slow
 
 s1= Solution()
-nums = [3,1,3,4,2]
+nums = [1,2,2,2,2,5,2]      
 print(s1.fun(nums))

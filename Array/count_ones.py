@@ -3,7 +3,6 @@ class Soltuion:
         count=0
         maxi_count=float("-inf")
         for i in range(len(nums)):
-            
             if nums[i]==1:
                 count+=1
             else:

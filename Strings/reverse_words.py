@@ -1,18 +1,26 @@
-class Solution:
-    def reverse_words(self,s):
-        result=[]
-        word=""
-        for ch in s:
-            if ch!=" ":
-                word+=ch
-            else:
-                if word:
-                    result.insert(0,word)
-                    word=""
-        if word:
-            result.insert(0,word)
-        return " ".join(result)
+# class Solution:
+#     def reverse_words(self,s):
+#         result=[]
+#         words=s.split()
+#         for i in range(len(words)-1,-1,-1):
+#             result.append(words[i])
+#         return " ".join(result)
+# s1=Solution()
+# print(s1.reverse_words(" Hello this is AG"))
+# print(s1.reverse_words(" The brand   "))
 
-s1=Solution()
-print(s1.reverse_words(" Hello this is AG"))
-print(s1.reverse_words(" The brand   "))
+
+s=" Hello this is AG "
+result=[]
+words=""
+for i in range(len(s)):
+    if s[i]!=" ":
+        words+=s[i]
+    else:
+        if words:
+            result.insert(0,words)
+            words=""
+if words:
+    result.insert(0,words)
+
+print(" ".join(result))

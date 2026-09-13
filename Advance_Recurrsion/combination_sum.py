@@ -9,17 +9,12 @@ class Solution:
                 return
             
             for i in range(start, len(candidates)):
-                # 🚫 Pruning (important optimization)
                 if candidates[i] > target:
                     break
-                
-                # ✅ Choose element
                 path.append(candidates[i])
                 
-                # Stay at same index (reuse allowed)
                 backtrack(i, target - candidates[i], path)
                 
-                # 🔁 Backtrack
                 path.pop()
 
         backtrack(0, target, [])

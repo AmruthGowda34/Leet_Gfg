@@ -2,7 +2,7 @@ class Solution:
     def longest_pali_substring(self, s):
         start = 0
         max_len = 1
-
+        
         for i in range(len(s)):
 
             # Even length

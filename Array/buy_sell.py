@@ -1,6 +1,6 @@
 class Solution:
     def buy_sell(self,nums):
-        min_pric=nums[0]
+        min_price=nums[0]
         max_profit=0
         for i in range(len(nums)):
             min_price=min(nums[i],min_price)

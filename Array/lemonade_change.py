@@ -20,7 +20,7 @@ class Soltuion:
                 else:
                     return False
         return True
-
+    
 s1=Soltuion()
 bills = [5,5,5,10,20]
 print(s1.lemoan_chnage(bills))

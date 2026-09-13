@@ -9,13 +9,16 @@ class SLL:
         fast=head
         for _ in range(n):
             fast=fast.next
+            
         if fast==None:
             return head.next
+        
         while fast.next!=None:
             slow=slow.next
             fast=fast.next
         slow.next=slow.next.next    
         return head
+    
     def print_ll(self,head):
         while head:
             print(head.val,end=" ")

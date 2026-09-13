@@ -18,7 +18,7 @@ class Solution:
         return re
     def check_ith_bit(self,num2,i):
         if num2>>i&1!=0: # 13=1101 when it is peformed to rigth shift by i 0110 & 0001==0 return False
-            return True
+            return True 
         else:
             return False        
 
